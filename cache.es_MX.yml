@@ -1,0 +1,564 @@
+!!com.aptana.scripting.model.BundleElement
+author: Alejandro Next
+children:
+- !!com.aptana.scripting.model.MenuElement
+  children:
+  - children:
+    - children: &id001 []
+      commandName: XHTML - 1.0 Strict
+      customProperties: null
+      displayName: XHTML - 1.0 Strict
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: XHTML - 1.0 Transitional
+      customProperties: null
+      displayName: XHTML - 1.0 Transitional
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: XHTML - 1.1
+      customProperties: null
+      displayName: XHTML - 1.1
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: XHTML - Mobile
+      customProperties: null
+      displayName: XHTML - Mobile
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: html5
+      customProperties: null
+      displayName: html5
+      path: bundle.rb
+      scope: null
+    commandName: Insert DocType
+    customProperties: null
+    displayName: Insert DocType
+    path: bundle.rb
+    scope: null
+  - children:
+    - children: *id001
+      commandName: CDATA
+      customProperties: null
+      displayName: CDATA
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Less Css
+      customProperties: null
+      displayName: Less Css
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Stylus
+      customProperties: null
+      displayName: Stylus
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Javascript
+      customProperties: null
+      displayName: Javascript
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Markdown
+      customProperties: null
+      displayName: Markdown
+      path: bundle.rb
+      scope: null
+    commandName: Filters
+    customProperties: null
+    displayName: Filters
+    path: bundle.rb
+    scope: null
+  - children:
+    - children: *id001
+      commandName: Meta - Generic
+      customProperties: null
+      displayName: Meta - Generic
+      path: bundle.rb
+      scope: null
+    - children: *id001
+      commandName: Meta - http-equiv
+      customProperties: null
+      displayName: Meta - http-equiv
+      path: bundle.rb
+      scope: null
+    commandName: Meta Tags
+    customProperties: null
+    displayName: Meta Tags
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: '-'
+    customProperties: null
+    displayName: '-'
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: HTML - en-US
+    customProperties: null
+    displayName: HTML - en-US
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: Element Attribute
+    customProperties: null
+    displayName: Element Attribute
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: IE Conditional
+    customProperties: null
+    displayName: IE Conditional
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: Page Class
+    customProperties: null
+    displayName: Page Class
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: Insert Tag
+    customProperties: null
+    displayName: Insert Tag
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: Convert HTML to Jade
+    customProperties: null
+    displayName: Convert HTML to Jade
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: Check Syntax
+    customProperties: null
+    displayName: Check Syntax
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: xml_prolog
+    customProperties: null
+    displayName: xml_prolog
+    path: bundle.rb
+    scope: null
+  commandName: Jade
+  customProperties: null
+  displayName: Jade
+  path: bundle.rb
+  scope: text.jade
+- !!com.aptana.scripting.model.EnvironmentElement {customProperties: null, displayName: environment-51fe27e1-31fe-41da-8137-826adc6c9291,
+  path: bundle.rb, scope: text.jade}
+- !!com.aptana.scripting.model.CommandElement
+  async: false
+  customProperties: null
+  displayName: Check Syntax
+  input: [none]
+  inputPath: null
+  keyBindingMap:
+    !!com.aptana.scripting.model.Platform 'ALL': [M2+M4+J]
+  outputPath: null
+  outputType: show_as_tooltip
+  path: commands/check_syntax.rb
+  runType: current_thread
+  scope: text.jade
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.CommandElement
+  async: false
+  customProperties: null
+  displayName: Convert HTML to Jade
+  input: [selection, document]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: replace_selection
+  path: commands/convert_html_to_jade.rb
+  runType: current_thread
+  scope: null
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties: null
+  description: null
+  displayName: CoffeeScript
+  expansion: ":coffeescript\n  $0"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: text.jade
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties: null
+  description: null
+  displayName: CDATA
+  expansion: ":cdata\n  $0"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: text.jade
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties: null
+  description: null
+  displayName: Javascript
+  expansion: "script\n  $0"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: text.jade
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties: null
+  description: null
+  displayName: Markdown
+  expansion: ":markdown\n  $0"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: text.jade
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties: null
+  description: null
+  displayName: Less Css
+  expansion: ":less\n  $0"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: text.jade
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties: null
+  description: null
+  displayName: Stylus
+  expansion: ":stylus\n  $0"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: text.jade
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [meta]
+  description: null
+  displayName: Meta - http-equiv
+  expansion: meta( http-equiv = 'Content-Type', :content = 'text/html;', charset = 'utf-8'${1:, }$2 )$0
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: text.jade
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [meta]
+  description: null
+  displayName: Meta - Generic
+  expansion: meta( :name = '$1', :content = '$2'${3:, }$4 )$0
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: text.jade
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties: null
+  description: null
+  displayName: XHTML - 1.0 Strict
+  expansion: doctypes strict
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: text.jade
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties: null
+  description: null
+  displayName: XHTML - 1.0 Transitional
+  expansion: doctypes
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: text.jade
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties: null
+  description: null
+  displayName: XHTML - 1.1
+  expansion: doctypes 1.1
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: text.jade
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties: null
+  description: null
+  displayName: XHTML - Mobile
+  expansion: doctypes Mobile
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: text.jade
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties: null
+  description: null
+  displayName: html5
+  expansion: doctypes 5
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: text.jade
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties: null
+  description: null
+  displayName: xml_prolog
+  expansion: doctypes XML
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: text.jade
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties: null
+  description: null
+  displayName: Insert Tag
+  expansion: ${1:'string'/head/body/input/p/article/section/audio/video/a/header/label/li/infarme/form/button/'string'}$0
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap:
+    !!com.aptana.scripting.model.Platform 'ALL': ['CONTROL+M2+,']
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: text.jade
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [ie]
+  description: null
+  displayName: IE Conditional
+  expansion: "//[if ${1:lte }IE${3: ${2:version}}]\n  $0"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: text.jade
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [pc]
+  description: null
+  displayName: Page Class
+  expansion: .page_class
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: text.jade
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [':']
+  description: null
+  displayName: Element Attribute
+  expansion: ${1:'string'/style/title/name/'string'} = "$2"${3:, }$0,
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: text.jade
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: ['#']
+  description: null
+  displayName: data
+  expansion: \#{ ${1:'string''string', } }$0
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: text.jade
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.TemplateElement
+  async: false
+  customProperties: null
+  displayName: Jade Template
+  filetype: '*.jade'
+  input: []
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: discard
+  path: templates/templates.rb
+  runType: current_thread
+  scope: null
+  workingDirectoryType: UNDEFINED
+copyright: Distributed under the MIT license.
+customProperties: null
+decreaseIndentMarkers: &id002 {}
+description: '<a href="http://jade-lang.com/">Jade</a>is a high performance template
+  engine heavily influenced by HAML and implemented with JavaScript for node.
+
+  '
+displayName: Jade
+fileTypeRegistry: *id002
+fileTypes: *id001
+foldingStartMarkers: *id002
+foldingStopMarkers: *id002
+increaseIndentMarkers: *id002
+license: null
+licenseUrl: null
+path: bundle.rb
+repository: git://github.com/alejonext/JadeRuble.git
+visible: true
