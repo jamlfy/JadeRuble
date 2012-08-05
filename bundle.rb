@@ -42,9 +42,9 @@ end
 
 # Add special ENV vars
 env "text.jade" do |e|
-	e['TM_COMMENT_START'] = "-// "
+	e['TM_COMMENT_START'] = "//- "
 	e.delete('TM_COMMENT_END')
-	e['TM_COMMENT_START_2'] = "/"
+	e['TM_COMMENT_START_2'] = "//"
 	e.delete('TM_COMMENT_END_2')
 	e.delete('TM_COMMENT_DISABLE_INDENT')
 end
