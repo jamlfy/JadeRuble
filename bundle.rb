@@ -2,7 +2,7 @@ require 'ruble'
 
 bundle do |bundle|
 	bundle.display_name = t(:bundle_name)
-	bundle.author = 'Alejandro Next'
+	bundle.author = 'AlejoNext'
 	bundle.copyright = 'Distributed under the MIT license.'
 	bundle.repository = 'git://github.com/alejonext/JadeRuble.git'
 	bundle.description =  <<END
