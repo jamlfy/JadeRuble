@@ -3,13 +3,13 @@ require 'ruble'
 bundle do |bundle|
 	bundle.display_name = t(:bundle_name)
 	bundle.author = 'Alejandro Next'
-	bundle.copyright = "Distributed under the MIT license."
-	bundle.repository = "git://github.com/alejonext/JadeRuble.git"
+	bundle.copyright = 'Distributed under the MIT license.'
+	bundle.repository = 'git://github.com/alejonext/JadeRuble.git'
 	bundle.description =  <<END
 <a href="http://jade-lang.com/">Jade</a>is a high performance template engine heavily influenced by HAML and implemented with JavaScript for node.
 END
 	bundle.menu t(:bundle_name) do |jade_menu|
-		jade_menu.scope = [ "text.jade" ]
+		jade_menu.scope = [ 'text.jade' ]
 		jade_menu.menu t(:insert_doctype) do |submenu|
 			submenu.command t(:xhtml_1_strict)
 			submenu.command t(:xhtml_1_transitional)
@@ -41,10 +41,10 @@ END
 end
 
 # Add special ENV vars
-env "text.jade" do |e|
-	e['TM_COMMENT_START'] = "//- "
+env 'text.jade' do |e|
+	e['TM_COMMENT_START'] = '//- '
 	e.delete('TM_COMMENT_END')
-	e['TM_COMMENT_START_2'] = "//"
+	e['TM_COMMENT_START_2'] = '//'
 	e.delete('TM_COMMENT_END_2')
 	e.delete('TM_COMMENT_DISABLE_INDENT')
 end

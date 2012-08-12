@@ -2,7 +2,12 @@
 
 A bundle to enable related commands in Aptana Studio. Ported from https://github.com/alejonext/JadeRuble.
 
-Actually, I'm looking for someone to help me with programming in Ruby. If you want to help me!
+Currently this functional
+
+* Snippets (Without Code Assisten)
+* Templetes ( Without Not in de menus)
+* Commands (Failure to test)
+* Menus
 
 ## Authors
 
