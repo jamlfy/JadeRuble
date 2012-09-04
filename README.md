@@ -1,17 +1,20 @@
 # Jade bundle for Aptana Studio
 
-A bundle to enable related commands in Aptana Studio. Ported from https://github.com/alejonext/JadeRuble.
+A bundle to enable related commands in [Aptana Studio](https://www.aptana.com).
 
-Currently this functional
+## How do you install the bundle in [Aptana Studio](https://www.aptana.com) ?
 
-* Snippets (Without Code Assisten)
-* Templetes ( Without Not in de menus)
-* Commands (Failure to test)
-* Menus
-
-## Authors
-
-* Alejo Next
+1- Select Preferences..., and then choose General > Editors > File Associations.
+2- Add the appropriate file type.
+3- Next to the File Types list, click the Add... button.
+4- In the New File Type pop-up window, type '*.jade'.
+5- Click OK to add the New File Type to the List 'HAML Editor'.
+6- [Download the package](https://github.com/alejonext/JadeRuble/zipball/master)
+7- Unzip the package
+8- Copy the files by OS
+	* Mac/Linux in '~/Documents/Aptana Bundles'
+	* Windows in 'UserFolder\Aptana Bundles'
+9- Restart Aptana
 
 ## License
 
@@ -23,8 +26,10 @@ This bundle is licensed under the LGPL
 
 You can [report a bug or request a feature here](https://github.com/alejonext/JadeRuble/issues)
 
-Jade.Ruble
-=========
+## List TODO
 
-Jade-Lang Ruble for Aptana Studio
+This is a list of things that needs to be done
 
+* Support language Jade
+* Commands (Failure to test)
+* Support Menus
