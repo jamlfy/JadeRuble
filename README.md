@@ -1,6 +1,6 @@
 # Jade bundle for [Aptana Studio](https://www.aptana.com)
 
-## How do you install the bundle in [Aptana Studio](https://www.aptana.com) ?
+## How do you install the Jade bundle in [Aptana Studio](https://www.aptana.com) ?
 
 1. Select Preferences..., and then choose General > Editors > File Associations.
 2. Add the appropriate file type.
@@ -13,17 +13,17 @@
 	* Windows in `UserFolder\Aptana Bundles`
 8. Restart Aptana
 
-## License
+### License
 
 This bundle is licensed under the LGPL 
 
 * [GNU Lesser General Public License (LGPL) ](http://www.gnu.org/licenses/lgpl-3.0.txt)
 
-## Bugs/Requests
+### Bugs/Requests
 
 You can [report a bug or request a feature here](https://github.com/alejonext/JadeRuble/issues)
 
-## List TODO
+#### List TODO
 
 This is a list of things that needs to be done
 
