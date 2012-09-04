@@ -1,6 +1,6 @@
-# Jade bundle for [Aptana Studio](https://www.aptana.com)
+# Jade bundle for [Aptana Studio](http://www.aptana.com)
 
-## How do you install the Jade bundle in [Aptana Studio](https://www.aptana.com) ?
+## How do you install the Jade bundle in [Aptana Studio](http://www.aptana.com) ?
 
 1. Select Preferences..., and then choose General > Editors > File Associations.
 2. Add the appropriate file type.
