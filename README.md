@@ -27,6 +27,6 @@ You can [report a bug or request a feature here](https://github.com/alejonext/Ja
 
 This is a list of things that needs to be done
 
-* Support language Jade
+* Support Syntax
 * Commands (Failure to test)
 * Support Menus
