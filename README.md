@@ -8,11 +8,10 @@
 4. In the New File Type pop-up window, type `*.jade`.
 5. Click OK to add the New File Type to the List `HAML Editor`.
 6. [Download the package](https://github.com/alejonext/JadeRuble/zipball/master)
-7. Unzip the package
-8. Copy the files by OS
+7. Unzip the package according to the OS
 	* Mac/Linux in `~/Documents/Aptana Bundles`
 	* Windows in `UserFolder\Aptana Bundles`
-9. Restart Aptana
+8. Restart Aptana
 
 ## License
 
