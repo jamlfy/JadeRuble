@@ -41,7 +41,7 @@ END
 		jade_menu.command t(:jadesyntax)
 		end
 	end
-end
+
 
 # Add special ENV vars
 env 'text.jade' do |e|

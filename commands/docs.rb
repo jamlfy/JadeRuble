@@ -1,6 +1,6 @@
 require 'ruble'
 
-command 'Jade Syntax' do |cmd|
+command t(:jadesyntax) do |cmd|
 	cmd.output = :output_to_console
 	cmd.input = :selection
 	cmd.invoke do |context|
