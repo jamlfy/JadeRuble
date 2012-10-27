@@ -42,7 +42,6 @@ END
 		end
 	end
 
-
 # Add special ENV vars
 env 'text.jade' do |e|
 	e['TM_COMMENT_START'] = '//- '

@@ -16,7 +16,7 @@ with_defaults :scope => 'text.jade' do
 	end
 
 	snippet t(:script) do |s|
-		s.trigger = 'sc'
+		s.trigger = 'script'
 		s.expansion = 'script
 	$0'
 	end
@@ -25,7 +25,6 @@ with_defaults :scope => 'text.jade' do
 		s.trigger = 'js'
 		s.expansion = '- $0'
 	end
-
 
 	snippet t(:markdown) do |s|
 		s.trigger = 'md'
@@ -77,14 +76,13 @@ with_defaults :scope => 'text.jade' do
 		s.expansion = 'doctypes 5'
 	end
 
-	# XML
 	snippet t(:xml_prolog) do |s|
 		s.expansion = 'doctypes XML'
 	end
 
 	# FIXED Miscellaneous
 	snippet t(:insert_tag) do |s|
-		s.key_binding = 'CONTROL+M2+,'
+		#s.key_binding = 'CONTROL+M2+?,'
 		s.expansion = '${1:head/body/input/p/article/section/audio/video/a/header/label/li/form/button/}${2: /#/./()/: }
 	${2: /| }$0'
 	end
@@ -129,9 +127,8 @@ else
 		s.expansion = '!{${1:Variable}}$0'
 	end
 
-	
 	snippet t(:ifelse) do |s|
-		s.trigger = 'if'
+		s.trigger = 'ifelse'
 		s.expansion = 'if ${1:Conditional}
 	
 else
@@ -139,23 +136,23 @@ else
 	end
 	
 	snippet t(:unless) do |s|
-		s.trigger = 'unl'
+		s.trigger = 'unless'
 		s.expansion = 'unless ${1:Conditional}
 	$0'
 	end
 	
 	snippet t(:extend) do |s|
-		s.trigger = 'ex'
+		s.trigger = 'extend'
 		s.expansion = 'extends ${1:layout}$0'
 	end
 	
-	snippet t(:extend) do |s|
-		s.trigger = 'in'
+	snippet t(:include) do |s|
+		s.trigger = 'include'
 		s.expansion = 'include ${1:Name}$0'
 	end
 	
 	snippet t(:block) do |s|
-		s.trigger = 'bl'
+		s.trigger = 'block'
 		s.expansion = 'block ${1:Name}$0'
 	end
 	
