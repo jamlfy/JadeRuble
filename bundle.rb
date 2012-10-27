@@ -9,7 +9,7 @@ bundle do |bundle|
 <a href="http://jade-lang.com/">Jade</a>is a high performance template engine heavily influenced by HAML and implemented with JavaScript for node.
 END
 	bundle.menu t(:bundle_name) do |jade_menu|
-		jade_menu.scope = [ 'text.jade' ]
+		jade_menu.scope = [ 'source.jade' ]
 		jade_menu.menu t(:insert_doctype) do |submenu|
 			submenu.command t(:xhtml_1_strict)
 			submenu.command t(:xhtml_1_transitional)
@@ -43,7 +43,7 @@ END
 	end
 
 # Add special ENV vars
-env 'text.jade' do |e|
+env 'source.jade' do |e|
 	e['TM_COMMENT_START'] = '//- '
 	e.delete('TM_COMMENT_END')
 	e['TM_COMMENT_START_2'] = '//'
