@@ -202,7 +202,7 @@ else
 	
 	snippet t(:form) do |s|
 		s.trigger = 'form'
-		s.expansion = 'form(method=${1:\'GET|POST|PUT\'}, action=${1:\'url\'})
+		s.expansion = 'form(method=${1:"POST"/"GET"/"PUT"}, action=${2:\'url\'})
 	$0'
 	end 
 

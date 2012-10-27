@@ -35,7 +35,6 @@ END
 		jade_menu.command t(:page_class)
 		jade_menu.command t(:insert_tag)
 		jade_menu.command t(:convert_html_to_jade)
-		jade_menu.command t(:check_syntax)
 		jade_menu.command t(:xml_prolog)
 		jade_menu.separator
 		jade_menu.command t(:jadesyntax)
