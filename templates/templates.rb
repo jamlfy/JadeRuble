@@ -8,6 +8,7 @@ template t(:template_new) do |t|
 		raw_contents.gsub(/\$\{([Creating a new template^}]*)\}/) {|match| ENV[match[2..-2]] }
 	end
 end
+
 template t(:template_extend) do |t|
 	t.filetype = "*.jade"
 	t.invoke do |context|

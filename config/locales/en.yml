@@ -24,6 +24,10 @@ en:
   page_class: 'Page Class'
   insert_tag: 'Insert Tag'
   convert_html_to_jade: 'Convert HTML to Jade'
-  check_syntax: 'Check Syntax'
   jade_template: 'Jade Template'
-  
+  html5: 'HTML 5'
+  xml_prolog: 'XML'
+  jadesyntax: 'Check syntax'
+  template_new: 'New Template'
+  template_mix: 'Lib Mix'
+  template_extend: 'New extend'

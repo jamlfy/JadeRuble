@@ -1,6 +1,6 @@
 require 'ruble'
 
-command t(:check_syntax) do |cmd|
+command t(:jadesyntax) do |cmd|
 	cmd.key_binding = 'M2+M4+J'
 	cmd.scope = 'text.jade'
 	cmd.output = :show_as_tooltip
