@@ -130,8 +130,9 @@ else
 	snippet t(:ifelse) do |s|
 		s.trigger = 'ifelse'
 		s.expansion = 'if ${1:Conditional}
-	
+	//- Is true!!
 else
+	//- Is false!
 	$0'
 	end
 	
@@ -170,4 +171,39 @@ else
 	default
 		//- When the ${1:Name} in dont in not de case $0'
 	end
+
+	snippet t(:img) do |s|
+		s.trigger = 'img'
+		s.expansion = 'img(scr=${1:SCR}, alt=${2:\'Value\'} )'
+	end
+
+	snippet t(:menu) do |s|
+		s.trigger = 'ul'
+		s.expansion = 'ul.${1:Class}
+	li: a( href=${2:\'Value\'} )= ${2:\'Value\'}'
+	end
+	
+	snippet t(:atom) do |s|
+		s.trigger = 'feed'
+		s.expansion = 'feed( xmlns="http://www.w3.org/2005/Atom" )
+	$0'
+	end
+	
+	snippet t(:rss) do |s|
+		s.trigger = 'rss'
+		s.expansion = 'rss(version=${1:\'2.0\'})
+	$0'
+	end
+	
+	snippet t(:input) do |s|
+		s.trigger = 'input'
+		s.expansion = 'input(type=${1:\'Text\'}, name=${1:\'Name\'} )'
+	end
+	
+	snippet t(:form) do |s|
+		s.trigger = 'form'
+		s.expansion = 'form(method=${1:\'GET|POST|PUT\'}, action=${1:\'url\'})
+	$0'
+	end 
+
 end
