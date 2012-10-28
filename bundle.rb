@@ -8,8 +8,10 @@ bundle do |bundle|
 	bundle.description =  <<END
 <a href="http://jade-lang.com/">Jade</a>is a high performance template engine heavily influenced by HAML and implemented with JavaScript for node.
 END
+	start_folding = /^\s*([\:\.\w\=].*)[\=|\:|\s|\!|\.]\s$/
+	end_folding = /^\s*$/
+	bundle.folding['text.jade'] = start_folding, end_folding
 	bundle.menu t(:bundle_name) do |jade_menu|
-		jade_menu.scope = [ 'text.jade' ]
 		jade_menu.menu t(:insert_doctype) do |submenu|
 			submenu.command t(:xhtml_1_strict)
 			submenu.command t(:xhtml_1_transitional)
@@ -38,14 +40,15 @@ END
 		jade_menu.command t(:xml_prolog)
 		jade_menu.separator
 		jade_menu.command t(:jadesyntax)
-		end
 	end
+end
 
 # Add special ENV vars
 env 'text.jade' do |e|
-	e['TM_COMMENT_START'] = '//- '
+	e['TM_COMMENT_START'] = '//-'
 	e.delete('TM_COMMENT_END')
 	e['TM_COMMENT_START_2'] = '//'
 	e.delete('TM_COMMENT_END_2')
 	e.delete('TM_COMMENT_DISABLE_INDENT')
 end
+
