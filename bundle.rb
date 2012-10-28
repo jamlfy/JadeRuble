@@ -8,9 +8,7 @@ bundle do |bundle|
 	bundle.description =  <<END
 <a href="http://jade-lang.com/">Jade</a>is a high performance template engine heavily influenced by HAML and implemented with JavaScript for node.
 END
-	start_folding = /^\s*([\:\.\w\=].*)[\=|\:|\s|\!|\.]\s$/
-	end_folding = /^\s*$/
-	bundle.folding['text.jade'] = start_folding, end_folding
+	bundle.folding['text.jade'] = /^\s*([\#\:\.\w].*)[\=|\:|\!|\.|\(]\s^$/, /^\s*$/
 	bundle.menu t(:bundle_name) do |jade_menu|
 		jade_menu.menu t(:insert_doctype) do |submenu|
 			submenu.command t(:xhtml_1_strict)
